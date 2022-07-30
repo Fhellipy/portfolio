@@ -1,13 +1,13 @@
 .container {
+	width: 100vw;
   display: flex;
   position: sticky;
   top: 0;
   z-index: 2;
-	width: 100vw;
 }
 
 .banner{
-  width: 100%;
+  width: 100vw;
   height: fit-content;
   display: flex;
   flex-direction: column;

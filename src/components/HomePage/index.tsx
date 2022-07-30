@@ -5,8 +5,8 @@ import css from "./styles.module.css";
 
 function HomePage() {
   return (
-    <article className={css.homePage}>
-      <article className={css.container}>
+    <article className={css.container}>
+      <article className={css.information}>
         <RedesSociais />
 
         <main className={css.main}>
