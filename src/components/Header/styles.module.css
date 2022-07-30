@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+	width: 100vw;
+}
+
+.banner{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: var(--primary);
+  color: #ffff;
+}
+
+.name{
+  font-size: 2rem;
+  font-weight: bold;
+
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
+  }
+}
+
+.office{
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  
+  @media (max-width: 600px) {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}

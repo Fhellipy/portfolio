@@ -1,0 +1,22 @@
+.container{
+  width: 60%;
+  height: fit-content;
+  border: 0.1rem solid var(--primary);
+}
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+  border: 0.1rem solid var(--outline);
+
+  & li{
+    list-style: none;
+  }
+}
+
+.image{
+  width: 13rem;
+  height: 10rem;
+}
