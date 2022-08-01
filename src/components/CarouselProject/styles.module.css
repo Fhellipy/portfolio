@@ -8,14 +8,30 @@
 
 .carousel{
   & li{
+    margin-right: 0.3rem;
     list-style: none;
+
+    &:hover{
+      & .titleProject{
+        display: flex;
+      }
+    }
+
+    & a{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: var(--black);
+      padding: 0.2rem;
+
+      border: 0.1rem solid var(--outline);
+      border-radius: 0.5rem;
+    }
   }
 }
 
 .image{
-  border: 0.1rem solid var(--outline);
-  border-radius: 0.5rem;
-
   width: 13rem;
   height: 13rem;
 
@@ -71,4 +87,11 @@
     width: 5.5rem;
     height: 11rem;
   }
+}
+
+.titleProject{
+  display: none;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
