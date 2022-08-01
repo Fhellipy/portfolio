@@ -3,27 +3,28 @@
 }
 
 .photoUser {
-	width: 10rem;
-	height: 10rem;
-	background: var(--outline);
-	border: 0.1rem solid black;
-	border-radius: 50%;
-	margin-left: 10%;
-	position: absolute;
-	top: 40%;
-
-	@media (max-width: 900px) {
-		margin-left: 7%;
-	}
-
-	@media (max-width: 800px) {
-		width: 7.75rem;
-		height: 7.75rem;
-		top: 60%;
-		margin-left: 4%;
-	}
-
-	@media (max-width: 400px) {
+	& img {
+		width: 10rem;
+		height: 10rem;
+		background: var(--outline);
+		border: 0.1rem solid black;
+		border-radius: 50%;
+		margin-left: 10%;
+		position: absolute;
+		top: 40%;
+		
+		@media (max-width: 900px) {
+			margin-left: 7%;
+		}
+		
+		@media (max-width: 800px) {
+			width: 7.75rem;
+			height: 7.75rem;
+			top: 60%;
+			margin-left: 4%;
+		}
+		
+		@media (max-width: 400px) {
 		width: 6.5rem;
 		height: 6.5rem;
 		top: 70%;
@@ -31,5 +32,6 @@
 
 	@media (max-width: 300px) {
 		margin-left: 3%;
+		}
 	}
 }
