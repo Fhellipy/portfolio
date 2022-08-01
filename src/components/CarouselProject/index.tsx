@@ -29,6 +29,7 @@ function CarouselProject() {
           slidesToShow: 2,
           slidesToScroll: 2,
           initialSlide: 2,
+          centerMode: true,
         },
       },
       {
@@ -36,6 +37,7 @@ function CarouselProject() {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          centerMode: true,
         },
       },
     ],
